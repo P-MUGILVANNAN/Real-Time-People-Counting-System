@@ -1,0 +1,25 @@
+{
+  "device": "cpu",
+  "iterations": 30,
+  "image_size": 640,
+  "system": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "cpu": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "torch_version": "2.14.1+cpu",
+    "cuda_available": false
+  },
+  "mcnn_benchmark": {
+    "mean_latency_ms": 168.7,
+    "median_latency_ms": 170.5,
+    "p95_latency_ms": 178.39,
+    "fps": 5.9,
+    "device": "cpu"
+  },
+  "tracker_benchmark": {
+    "mean_latency_ms": 0.53,
+    "median_latency_ms": 0.53,
+    "p95_latency_ms": 0.6,
+    "fps": 1878.1,
+    "device": "cpu"
+  }
+}

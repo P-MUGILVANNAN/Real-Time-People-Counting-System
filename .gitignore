@@ -1,0 +1,66 @@
+# Environments & Secrets
+.env
+.env.*
+!.env.example
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Outputs and Large Datasets (keep sample data and structure)
+outputs/videos/*.mp4
+outputs/videos/*.avi
+outputs/heatmaps/*.png
+outputs/heatmaps/*.jpg
+outputs/heatmaps/*.jpeg
+outputs/logs/*.log
+*.db
+*.sqlite3
+
+# Large weights
+*.pt
+*.pth
+*.onnx
+*.weights
+!models/detection/README.md
+!models/density/README.md
+!models/tracking/README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
